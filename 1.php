@@ -2,7 +2,7 @@
 
 function isArithmeticProgression($a, $b, $c) {
 
-    return ($b - $a) == ($c - $b);
+    return ($b - $a) === ($c - $b);
 }
 
 
@@ -16,5 +16,3 @@ if (isArithmeticProgression($a, $b, $c)) {
 } else {
     echo "Числа $a, $b, $c не являются последовательными членами арифметической прогрессии.";
 }
-
-?>

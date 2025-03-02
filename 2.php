@@ -1,11 +1,11 @@
 <?php 
 function determineTriangleType($a, $b, $c) {
 
-    if ($a == $b && $b == $c) {
+    if ($a === $b && $b === $c) {
         return "Равносторонний треугольник";
     }
 
-    if ($a == $b || $a == $c || $b == $c) {
+    if ($a === $b || $a === $c || $b === $c) {
         return "Равнобедренный треугольник";
     }
         return "Не треугольник";
@@ -18,4 +18,3 @@ $c = 6;
 $triangleType = determineTriangleType($a, $b, $c);
 
 echo "Треугольник со сторонами $a, $b, $c — это $triangleType.";
-?>
