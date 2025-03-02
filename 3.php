@@ -21,4 +21,5 @@ $month = 4;
 $days = getDaysInMonth($month);
 
 echo "Количество дней в месяце $month: $days.";
+
 ?>

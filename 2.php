@@ -18,4 +18,5 @@ $c = 6;
 $triangleType = determineTriangleType($a, $b, $c);
 
 echo "Треугольник со сторонами $a, $b, $c — это $triangleType.";
+
 ?>
